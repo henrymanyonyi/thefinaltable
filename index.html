@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>The Final Table Cooking Festival</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div class="intro">
+        <p>
+            THE FINAL TABLE IS BACK!<br>
+            FINAL TABLE BRINGS YOU ANOTHER EXCLUSIVE EDITION OF THE COOKING FESTIVAL.<br>
+            VENUE: HELLS KITCHEN.
+            DATE: Friday, 24th NOVEMBER 2019.
+            FROM: 8.45 A.M. TILL LATE.
+        </p>
+        </div>
+        <div class="registrationbox">
+         <img src ="logo.JPG" class="avatar2">
+        <h1>REGISTER HERE</h1>
+        <form method="POST" action="send.php">
+        <p>First Name</p>
+        <input type="text" name="fname" placeholder="Enter first name" required>
+        <p>Last Name</p>
+        <input type="text" name="lname" placeholder="Enter last name" required>  
+         <p>Telephone</p>
+        <input type="text" name="tel" placeholder="Enter telephone" required>
+        <p>Email</p>
+        <input type="text" name="email" placeholder="Enter email" required>
+        <p>Organisation</p>
+        <input type="text" name="org" placeholder="Enter Organisation" required>
+        <br><br>  
+        <input type="submit"   value="Register"><br><br>
+        
+        </form>
+        <input type="button"  value="Registered participants" onclick="window.location.href = 'print.php';">
+        </div>
+    </body>
+</html>

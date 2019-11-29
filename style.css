@@ -1,0 +1,85 @@
+body{
+    padding: 0 ;
+    margin: 0;
+    background: url(flambe.JPG);
+    background-size:auto;
+    background-position:center;
+    font-family: sans-serif;
+}
+P{
+    font-family: times;
+}
+.intro{
+    font-family: times;
+    font-size: 26;
+    text-align: center;
+    font-weight: bold;
+}
+.registrationbox{
+    width: 370px;
+    height:720px;
+    background: #ffffff;
+    color:#000000;
+    top:57.1%;
+    left:50%;
+    position:absolute;
+    transform:translate(-50%,-50%);
+    box-sizing:border-box;
+    padding: 500px 50px;
+
+}
+.avatar2{
+     width: 90px;
+     height:90px;
+     border-radius:50%;
+     position:center;
+     top:-50px;
+     left: calc(50% -50px);
+      
+} 
+h1{
+    margin:0 ;
+    padding: 0, 0,10px;
+    text-align:center;
+    font-size: 22px;
+}
+.registrationbox{
+    margin: 0;
+    padding: 0;
+    font-weight:bold;
+    text-align: center;
+
+}
+.registrationbox input{
+    width:90;
+    margin-bottom: 10px;
+
+}
+.registrationbox input[type="text"]{
+border:none;
+border-bottom:1px solid #000;
+background:transparent;
+outline: none;
+height: 40px;
+color:#000;
+font-size: 14px;
+}
+.registrationbox input[type="submit"]{
+    border:none;
+    outline:none;
+    height:25px;
+    background: #fb2525;
+    color:#fff;
+    font-size:18px;
+    border-radius:20px;
+    margin: 0%;
+}
+.registrationbox input[type="submit"]:hover{
+    cursor: pointer;
+    background: #000;
+    color: #fff;
+}
+    @keyframes registrationbox {
+        0%
+    }
+}
